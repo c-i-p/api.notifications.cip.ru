@@ -12,4 +12,5 @@ import ru.cip.controller.generic.GenericController;
 @Controller
 @RequestMapping("/notification")
 public class NotificationController extends GenericController<Notification> {
+
 }
