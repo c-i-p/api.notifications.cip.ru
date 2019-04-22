@@ -1,6 +1,6 @@
 package ru.cip.dao.generic.interfaces;
 
-import net.feng_shui.dao.generic.interfaces.GenericDAO;
+import ru.cip.dao.generic.interfaces.GenericDAO;
 
 import java.util.List;
 

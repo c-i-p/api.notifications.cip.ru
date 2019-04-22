@@ -1,4 +1,4 @@
-package net.feng_shui.controller;
+package ru.cip.controller;
 
 import org.junit.Before;
 import org.junit.Test;

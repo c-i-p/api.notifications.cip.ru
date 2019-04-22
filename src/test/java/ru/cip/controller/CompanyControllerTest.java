@@ -1,4 +1,4 @@
-package net.feng_shui.controller;
+package ru.cip.controller;
 
 import junit.framework.TestCase;
 

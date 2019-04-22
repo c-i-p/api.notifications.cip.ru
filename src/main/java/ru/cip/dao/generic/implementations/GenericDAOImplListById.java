@@ -1,7 +1,7 @@
 package ru.cip.dao.generic.implementations;
 
-import net.feng_shui.dao.generic.implementations.GenericDAOImpl;
-import net.feng_shui.dao.generic.interfaces.GenericDAOListById;
+import ru.cip.dao.generic.implementations.GenericDAOImpl;
+import ru.cip.dao.generic.interfaces.GenericDAOListById;
 
 import java.io.Serializable;
 import java.lang.reflect.ParameterizedType;

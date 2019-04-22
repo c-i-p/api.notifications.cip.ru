@@ -1,7 +1,7 @@
 package ru.cip.controller.generic;
 
-import net.feng_shui.service.generic.GenericService;
-import net.feng_shui.settings.ResponseId;
+import ru.cip.service.generic.GenericService;
+import ru.cip.settings.ResponseId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;

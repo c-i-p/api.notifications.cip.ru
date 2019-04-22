@@ -1,7 +1,6 @@
 package ru.cip.dao.implementations;
 
-import net.feng_shui.dao.generic.implementations.GenericDAOImpl;
-import net.feng_shui.model.Tag;
+import ru.cip.dao.generic.implementations.GenericDAOImpl;
 import org.springframework.stereotype.Repository;
 import ru.cip.model.Notification;
 
@@ -10,5 +9,5 @@ import ru.cip.model.Notification;
  */
 
 @Repository
-public class NotificationDaoImpl extends GenericDAOImpl<Tag> {
+public class NotificationDaoImpl extends GenericDAOImpl<Notification> {
 }

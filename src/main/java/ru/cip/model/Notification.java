@@ -1,14 +1,12 @@
 package ru.cip.model;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import net.feng_shui.model.ContactInfo;
-import net.feng_shui.settings.ResponseId;
+import ru.cip.settings.ResponseId;
 
 import javax.persistence.*;
 import java.io.Serializable;
 
 /**
- * Created by mil on 23.11.2015.
+ * Created by mil on 22.04.2019.
  * banana
  */
 

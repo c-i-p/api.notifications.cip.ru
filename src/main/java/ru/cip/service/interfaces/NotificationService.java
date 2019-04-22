@@ -1,6 +1,6 @@
 package ru.cip.service.interfaces;
 
-import net.feng_shui.service.generic.GenericService;
+import ru.cip.service.generic.GenericService;
 import ru.cip.model.Notification;
 
 /**
