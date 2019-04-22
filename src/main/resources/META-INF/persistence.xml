@@ -6,18 +6,7 @@
     <persistence-unit name="mysql" transaction-type="RESOURCE_LOCAL">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 
-        <class>net.feng_shui.model.Company</class>
-        <class>net.feng_shui.model.Contact</class>
-        <class>net.feng_shui.model.ContactInfo</class>
-        <class>net.feng_shui.model.Email</class>
-        <class>net.feng_shui.model.Employee</class>
-        <class>net.feng_shui.model.Individual</class>
-        <class>net.feng_shui.model.Phone</class>
-        <class>net.feng_shui.model.Social</class>
-        <class>net.feng_shui.model.Tag</class>
-        <class>net.feng_shui.model.Task</class>
-        <class>net.feng_shui.model.User</class>
-        <class>net.feng_shui.model.Website</class>
+        <class>ru.cip.model.Notification</class>
 
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
         <properties>

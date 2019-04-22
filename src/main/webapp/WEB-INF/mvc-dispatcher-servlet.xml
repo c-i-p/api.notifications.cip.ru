@@ -9,7 +9,7 @@
 
 
     <context:annotation-config />
-    <context:component-scan base-package="net.feng_shui"/>
+    <context:component-scan base-package="ru.cip"/>
 
 
 
@@ -47,7 +47,7 @@
     <tx:annotation-driven transaction-manager="transactionManager" />
 
     <!-- JPA Repositories -->
-    <jpa:repositories base-package="net.feng_shui.dao"></jpa:repositories>
+    <jpa:repositories base-package="ru.cip.dao"></jpa:repositories>
 
 
     <mvc:annotation-driven>
@@ -55,7 +55,7 @@
             <!-- Use the HibernateAware mapper instead of the default -->
             <bean class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter">
                 <property name="objectMapper">
-                    <bean class="net.feng_shui.settings.HibernateAwareObjectMapper" />
+                    <bean class="ru.cip.settings.HibernateAwareObjectMapper" />
                 </property>
             </bean>
         </mvc:message-converters>
